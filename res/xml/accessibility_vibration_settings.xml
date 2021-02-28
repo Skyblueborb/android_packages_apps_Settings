@@ -40,4 +40,27 @@
         android:title="@string/accessibility_touch_vibration_title"
         settings:keywords="@string/keywords_touch_vibration"
         app:controller="com.android.settings.accessibility.HapticFeedbackIntensityPreferenceController" />
+
+    <!-- Incall vibration options -->
+    <PreferenceCategory
+        android:key="accessibility_incall_vibration_category"
+        android:title="@string/incall_vibration_category" >
+
+        <SwitchPreference
+            android:key="vibrate_on_connect"
+            android:title="@string/incall_vibrate_connect_title"
+            android:defaultValue="true" />
+
+        <SwitchPreference
+            android:key="vibrate_on_callwaiting"
+            android:title="@string/incall_vibrate_call_wait_title"
+            android:defaultValue="true" />
+
+        <SwitchPreference
+            android:key="vibrate_on_disconnect"
+            android:title="@string/incall_vibrate_disconnect_title"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
