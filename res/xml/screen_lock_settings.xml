@@ -67,4 +67,9 @@
         android:defaultValue="false"
         settings:controller="com.android.settings.security.UdfpsGesturePreferenceController" />
 
+    <lineageos.preference.LineageSecureSettingSwitchPreference
+        android:key="qs_tiles_requires_unlocking"
+        android:title="@string/qstiles_requires_unlocking_title"
+        android:summary="@string/qstiles_requires_unlocking_summary"
+        android:defaultValue="true"/>
 </PreferenceScreen>
