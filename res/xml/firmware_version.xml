@@ -111,10 +111,10 @@
     <!-- Dedication -->
     <Preference
         android:key="dedication"
-        android:title="This build is dedicated to: Oliwia"
+        android:title="This build is dedicated to: Amanda"
         android:summary="@string/summary_placeholder"
         android:selectable="false"
         settings:enableCopying="true"
-        settings:controller="Oliwia"/>
+        settings:controller="Amanda"/>
 
 </PreferenceScreen>
