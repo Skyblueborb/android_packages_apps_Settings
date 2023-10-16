@@ -60,4 +60,11 @@
         android:title="@string/unlock_scramble_pin_layout_title"
         android:summary="@string/unlock_scramble_pin_layout_summary" />
 
+    <SwitchPreference
+        android:key="screen_off_udfps_enabled"
+        android:title="@string/screen_off_udfps_title"
+        android:summary="@string/screen_off_udfps_summary"
+        android:defaultValue="false"
+        settings:controller="com.android.settings.security.UdfpsGesturePreferenceController" />
+
 </PreferenceScreen>
