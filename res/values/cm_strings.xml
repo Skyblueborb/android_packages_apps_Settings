@@ -204,11 +204,6 @@
     <string name="force_lte_ca">Force LTE CA</string>
     <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
 
-
-    <!-- Allow to disable Always On UDFS-->
-    <string name="screen_off_udfps_title">Always on Fingerprint</string>
-    <string name="screen_off_udfps_summary">Allows unlocking with the screen off.\nEnabling may cause accidental wake-ups</string>
-
     <!-- QSTiles requires unlocking before being accessible -->
     <string name="qstiles_requires_unlocking_title">Quick settings sensitive tiles</string>
     <string name="qstiles_requires_unlocking_summary">Unlock device to use sensitive quick settings tiles</string>
