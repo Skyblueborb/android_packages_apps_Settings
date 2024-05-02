@@ -48,8 +48,7 @@ public class BatteryMaximumCapacityPreferenceController extends BasePreferenceCo
 
         if (maxCapacityUah > 0 && designCapacityUah > 0) {
             int maxCapacity = maxCapacityUah / 1_000;
-            int designCapacity = designCapacityUah / 1_000;
-            int percentage = (maxCapacity * 100) / designCapacity;
+            int percentage = (maxCapacity * 100) / designCapacityUah;
 
             return mContext.getString(
                     R.string.battery_maximum_capacity_summary, maxCapacity, percentage);

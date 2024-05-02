@@ -45,8 +45,7 @@ public class BatteryDesignCapacityPreferenceController extends BasePreferenceCon
                 batteryIntent.getIntExtra(BatteryManager.EXTRA_DESIGN_CAPACITY, -1);
 
         if (designCapacityUah > 0) {
-            int designCapacity = designCapacityUah / 1_000;
-            return mContext.getString(R.string.battery_design_capacity_summary, designCapacity);
+            return mContext.getString(R.string.battery_design_capacity_summary, designCapacityUah);
         }
 
         return mContext.getString(R.string.battery_design_capacity_not_available);
